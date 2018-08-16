@@ -1,0 +1,61 @@
+body {
+  background-color: #F3FAFC;
+}
+
+#homepage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quote-button {
+  display: flex;
+/*   justify-content: center; */
+  align-self: flex-end;
+  border-radius: 2px;
+  background-color: #576984;
+  color: white;
+  padding: 15px 32px;
+  width: 25VH;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
+  transition: .2s;
+}
+
+.quote-button:hover {
+  opacity: .2;
+  cursor: pointer;
+}
+
+.quote-box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  max-width: 70VH;
+/*   min-width: 70VH; */
+  margin: auto;
+}
+
+#quote-author {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: right;
+  opacity: 0.3;
+}
+
+#quote-text {
+  font-style: italic;
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  color: #576984;
+
+}
